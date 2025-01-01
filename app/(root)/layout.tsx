@@ -16,7 +16,7 @@ export default function RootLayout({
   return (
     <main className=" flex ">
       {/* Sidebar section */}
-      <Sidebar user={{ name: "ahmed" }} />
+      <Sidebar user={{} as any} />
       {/* Render child components */}
       {children}
     </main>
