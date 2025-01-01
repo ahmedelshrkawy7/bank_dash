@@ -1,3 +1,5 @@
+import Sidebar from "@/components/Sidebar";
+
 /**
  * RootLayout component that serves as the main layout structure
  * wrapping around child components.
@@ -12,9 +14,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <main className="">
+    <main className=" flex ">
       {/* Sidebar section */}
-      sidebar
+      <Sidebar user={{ name: "ahmed" }} />
       {/* Render child components */}
       {children}
     </main>
