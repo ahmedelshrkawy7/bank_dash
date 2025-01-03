@@ -1,3 +1,4 @@
+import RightSidebar from "@/components/Rightsidebar";
 import Sidebar from "@/components/Sidebar";
 
 /**
@@ -19,6 +20,7 @@ export default function RootLayout({
       <Sidebar user={{} as any} />
       {/* Render child components */}
       {children}
+
     </main>
   );
 }
