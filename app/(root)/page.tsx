@@ -22,7 +22,7 @@ const Home = () => {
           />
         </header>
       </div>
-
+      //
       <RightSidebar
         banks={[
           {
